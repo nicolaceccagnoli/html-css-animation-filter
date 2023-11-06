@@ -98,3 +98,29 @@
 
     transition: filter 4s, border-radius 4s, transform 4s;
 }
+
+/* 
+    ESERCIZIO 10
+*/
+
+.ex-10-icon:hover{
+    animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
