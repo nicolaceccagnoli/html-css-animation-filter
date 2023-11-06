@@ -104,10 +104,10 @@
 */
 
 .ex-10-icon:hover{
-    animation: rotate 3s linear infinite;
+    animation: rotate-a 3s linear infinite;
 }
 
-@keyframes rotate {
+@keyframes rotate-a {
     0% {
         transform: rotate(0deg);
     }
@@ -130,10 +130,10 @@
 */
 
 .ex-11-icon:hover{
-    animation: rotate 3s linear infinite;
+    animation: rotate-b 3s linear infinite;
 }
 
-@keyframes rotate {
+@keyframes rotate-b {
     0% {
         transform: rotate(0deg);
     }
