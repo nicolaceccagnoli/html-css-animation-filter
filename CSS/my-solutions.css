@@ -55,3 +55,14 @@
 
     transition: width 2s, height 2s;
 }
+
+
+/* 
+    ESERCIZIO 6
+*/
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+
+    transition: filter 3s;
+}
