@@ -26,3 +26,13 @@
 
     transition: border-radius 3s;
 }
+
+/* 
+    ESERCIZIO 4
+*/
+
+.ex-4-square:hover{
+    background-color: transparent;
+
+    transition: background-color 5s;
+}
