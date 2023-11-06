@@ -36,3 +36,22 @@
 
     transition: background-color 5s;
 }
+
+/* 
+    ESERCIZIO 5
+*/
+
+.ex-5-square:hover{
+    width: 80px;
+    height: 80px;
+
+    transition: width 2s, height 2s;
+
+}
+
+.ex-5-square:active{
+    width: 40px;
+    height: 40px;
+
+    transition: width 2s, height 2s;
+}
