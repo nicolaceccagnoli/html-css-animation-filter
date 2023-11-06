@@ -5,3 +5,8 @@
     transition: background-color 3s;
 }
 
+.ex-2-square:active{
+    width: 100%;
+
+    transition: width 5s;
+}
