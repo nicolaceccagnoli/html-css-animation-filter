@@ -147,3 +147,30 @@
         transform: rotate(270deg);
     }
 
+}
+
+/* 
+    ESERCIZIO 12
+*/
+
+.ex-12-button:hover .ex-12-top-white {
+
+    animation: rotate-button-top 2s ease-in-out;
+}
+
+@keyframes rotate-button-top {
+    50%{
+        left: 100px;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+
+    animation: rotate-button-bottom 2s ease-in-out;
+}
+
+@keyframes rotate-button-bottom {
+    50%{
+        right: 100px;
+    }
+}
