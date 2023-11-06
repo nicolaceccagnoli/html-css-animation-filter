@@ -86,3 +86,15 @@
 
     transition: filter 3s, border-radius 3s;
 }
+
+/* 
+    ESERCIZIO 9
+*/
+
+.ex-9-img:hover{
+    filter: contrast(40%) drop-shadow(5px 5px 10px green);
+    border-radius: 30%;
+    transform: scale(75%);
+
+    transition: filter 4s, border-radius 4s, transform 4s;
+}
