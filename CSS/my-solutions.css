@@ -76,3 +76,13 @@
     transition: filter 3s;
 }
 
+/* 
+    ESERCIZIO 8
+*/
+
+.ex-8-img:hover{
+    filter: sepia(20%) hue-rotate(120deg);
+    border-radius: 25%;
+
+    transition: filter 3s, border-radius 3s;
+}
